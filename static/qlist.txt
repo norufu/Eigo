@@ -1,0 +1,40 @@
+sentence-Hello.-hello.m4a-
+sentence-What did you say?-whatdidyousay.m4a-
+sentence-Why do they call it oven?-whydotheycallitoven.m4a-
+sentence-Where is the grocery store?-whereisthegrocerystore.m4a-
+sentence-Do you want to go?-doyouwanttogo.m4a-
+sentence-I like it.-ilikeit.m4a-
+sentence-He went to the store.-hewenttothestore.m4a-
+sentence-I'm Ben.-imben.m4a-
+sentence-This is an apple.-thisisanapple.m4a-
+sentence-That is a car.-thatisacar.m4a-
+sentence-This Sunday.-thissunday.m4a-
+sentence-I want food.-iwantfood.m4a-
+sentence-I want breakfast and a coffee.-iwantbreakfastandacoffee.m4a-
+sentence-Of course.-ofcourse.m4a-
+sentence-Do you like it?-doyoulikeit.m4a-
+sentence-Does he like you?-doeshelikeyou.m4a-
+sentence-What is this?-whatisthis.m4a-
+sentence-I know him.-iknowhim.m4a-
+sentence-Where are you?-whereareyou.m4a-
+sentence-Are you here?-areyouhere.m4a-
+sentence-No thank you.-nothankyou.m4a-
+sentence-Do you have a car?-doyouhaveacar.m4a-
+sentence-Don't do that.-dontdothat.m4a-
+sentence-I went with her.-iwentwithher.m4a-
+sentence-That's my coffee.-thatsmycoffee.m4a-
+sentence-He liked the movie.-helikedthemovie.m4a-
+sentence-She was busy.-shewasbusy.m4a-
+sentence-He has a car but he's busy.-hehasacarbuthesbusy.m4a-
+sentence-We will go Sunday.-wewillgosunday.m4a-
+sentence-I can go Monday.-icangomonday.m4a-
+sentence-Are you busy now?.-areyoubusynow.m4a-
+sentence-Can I have a coffee?.-canihaveacoffee.m4a-
+sentence-We are so busy.-wearesobusy.m4a-
+sentence-Well, I have a car.-wellihaveacar.m4a-
+sentence-You're right.-youreright.m4a-
+sentence-I'm hungry.-imhungry.m4a-
+sentence-Does he drink coffee?-doeshedrinkcoffee.m4a-
+sentence-That's good.-thatsgood.m4a-
+sentence-That movie will be good.thatmoviewillbegood.m4a-
+sentence-I want to go with him.-iwanttogowithhim.m4a-

@@ -1,0 +1,99 @@
+current I think
+CHECK-make a scuffed temp script to upload a text file into mongdob 
+CHECK-personlized list of what questions are active for a new user, learned/reference to qnum
+CHECK-learning mode basics
+CHECK-fix the fucking backend, this'll probably happen again. Checking jwt on loading and pulling questions via it over username
+CHECK-learning mode
+CHECK-basic study mode/srs
+CHECK-homepage check to see if you have pending study questions
+CHECK- user settings I guess (need to finish saving)
+*CHECK-Search mode (need to test with more findable results)
+make it look CLEANER
+add some features (learned count to userboard, disable feature, hover colours on buttons, replay button)
+
+program
+-profile page
+-level test
+    -run through bunch of words of varying difficulties and sentences to find an close level (maybe minus a bit to not miss anything)
+-study mode
+    -SRS, maybe just copy anki's style? explained in the mattvsjapan vid
+    -maybe have text card and listening card, or go from vid with subs > audio with word > audio
+    -disable feature
+-learning mode
+    -add wanikaniesque confrimation screens before starting/ending
+learning/stud mode UI
+    -disable feature
+    -add colours for right/wrong
+    -search word
+    -dictionary lookup??
+    -replay
+    -cut audio when loading next q
+refactor to use services if I actually want my project to be clean :(
+    -user, login/logout/auth
+    -database calls?
+    -making learn/study more similar
+-pages for each word, search by word, give back sentences with that word
+
+
+https://www.wordfrequency.info/free.asp?s=y
+-check toicc vocab as well
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/1-1000
+
+-elo level?
+
+separate
+CHECK-find freq list    
+-make sentences based on freq/grammar
+-audio and maybe video
+-maybe sentence generator/level sorter (script to sort based on commonness of words)
+
+b-b-b-bonus
+-single click on word to open google translate page of it
+-maybe allow them to pick a dictionary or smth
+-leech notifications
+-learning
+-little tips on memorizing techniques (writing, imagining, etc)
+-stress diagrams (this would be big brain)
+
+bugs and improvements
+-registering doesn't give you a jwt properly
+-save total learnt count rather than searching each question when loading the userboard. could just update it every time you finish a learn session
+-limit daily new items to the account's dailynew setting, will need to do ^ first
+-add disabled and mature cards to the pie chart
+-output when your next review will be available, currently it will say "today, reviews: x" on the chart but you will still have "study: 0"
+
+anki ease explained
+-hard takes previous interval and makes 1.2x that the new interval but takes 15% away from ease
+-good multiplies interval by ease factor
+-easy multiples interval by ease factor and easy bonus. increasing the ease factor by 15%
+
+
+
+references
+-pie chart; https://seesparkbox.com/foundry/how_to_code_an_SVG_pie_chart
+
+
+
+
+freq list program
+-scrape sentences and sort based on ease of sentence > length
+https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests AND https://en.wikipedia.org/wiki/Readability
+-can possibly be used to pick content that won't be largely rare words
+-
+
+
+-word frequency sorter, output graph of sentences in each frequency score range + a list of words and how many times they are used (to avoid repetition of the same ones). 
+probably ideal to have words that aren't always used only 3/4 times throughout. 
+might also need to compare where in the order they are, eg we don't want the user to learn people 3 times in a row but having it again after learning XX other sentences may be ok
+
+probably go with this one
+http://corpus.leeds.ac.uk/frqc/internet-en.num
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/1-1000
+
+possblelists
+https://www.wordfrequency.info/sample.asp
+http://www.syd-tv.com/frequency/
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Project_Gutenberg
+
+other neat stuff
+https://youglish.com/
